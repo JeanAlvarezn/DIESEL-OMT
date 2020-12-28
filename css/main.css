@@ -1,5 +1,5 @@
 body {
-	background: #E1E1E1;
+	background: #fff;
 }
 
 .navbar-bg {
@@ -36,6 +36,7 @@ body {
 	background:  #313133;
 	height: 201px;
 	color: #fff;
+	padding-top: 15px;
 }
 
 .contenedorSuperior-footer i {
@@ -47,9 +48,107 @@ body {
 	background: #505052;
 	height: 50px;
 	color: #fff;
+	padding-top: 10px;
 }
 
 .contenedorInferior-footer, .contenedorSuperior-footer p{
 	font-weight: bold;
 }
 
+.contenedorCarrusel {
+	width: 100%;
+	height: auto;
+}
+
+#tituloPrincipal{
+	font-size: 50px;
+	margin-top: 15%;
+	font-weight: bold;
+}
+
+
+.feature-imagen-contenedor {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+
+.feature-imagen-contenedor img {
+  -webkit-box-shadow: 5px 10px 8px #888888;
+  -moz-box-shadow: 5px 10px 8px #888888;
+   box-shadow: 5px 10px 8px #888888;
+   width: 416px;
+   height: 346px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+#separadorContenido {
+	width: 85%;
+}
+
+.opiniones {
+	margin-top: 20px;
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	position: relative;
+	background: linear-gradient(135deg, rgba(52, 73, 94,0.9) 0%, rgba(44, 62, 80,0.8) 100%) , url('../img/fabricacionReferencia03.jpg') center no-repeat fixed;
+
+}
+
+.opinion {
+	width: 100%;
+	color: #fafafa;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+
+.opinion-text-box {
+	padding: 0 1.5rem;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.opinion-text-box i{
+	position: absolute;
+	top: -8rem;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 8rem;
+	color: #0B1E51;
+	opacity: .5;
+	z-index: -1;
+
+}
+
+
+.opinion-cliente img {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 100%;
+	border: 3px solid#0B1E51;
+}
+
+
+
+
+.botonContactar {
+	width: 250px;
+	height: 66px;
+	border-radius: 45px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+
+@media(max-width: 500px) {
+	.feature-imagen-contenedor {
+		width: 500px;
+	}
+}
