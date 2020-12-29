@@ -9,6 +9,7 @@
 	<title>DIESEL OMT | Servicios Integrales</title>
 </head>
 <body>
+<!--Cabecera--> 
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-bg">
   		<div class="container-fluid contenedor-navbar">
     		<a class="navbar-brand logo-navbar" href="#"><img src="img/logo-navbar.PNG" alt=""></a>
@@ -18,21 +19,81 @@
     	<div class="collapse navbar-collapse" id="navbarNav">
       		<ul class="navbar-nav barra-navegacion">
         		<li class="nav-item">
-         			<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link item-nav" href="index.html">Inicio</a>
         		</li>
 		        <li class="nav-item">
-		         	<a class="nav-link item-nav" href="#">Quienes somos</a>
+		         	<a class="nav-link item-nav" href="quienes-somos.html">Quienes somos</a>
 		        </li>
         		<li class="nav-item">
           			<a class="nav-link item-nav" href="#">Servicios</a>
         		</li>
         		<li class="nav-item">
-          			<a class="nav-link item-nav" href="#">Contacto</a>
+              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
         		</li>
       		</ul>
     	</div>
   		</div>
 	</nav>
+<!--Formulario-->
+<main>
+  <center>
+    <div class="formularioContacto">
+      <form action="" class="needs-validation">
+        <h1>Contacto</h1>
+        <hr id="separadorContenido">
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label">Nombre <b class="asteriscoObligatorio">*</b></label>
+          <input class="form-control controlFormulario" type="text" placeholder="Nombre" id="exampleFormControlInput2" aria-label="default input example" required>
+          <div class="invalid-feedback">
+                Tu nombre no puede estar en blanco
+            </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label">Apellido <b class="asteriscoObligatorio">*</b></label>
+          <input class="form-control controlFormulario" type="text" placeholder="Apellido" id="exampleFormControlInput2" aria-label="default input example" required>
+          <div class="invalid-feedback">
+                Tu apellido no puede estar en blanco
+            </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label">Empresa u organización <b class="asteriscoObligatorio">*</b></label>
+          <input class="form-control controlFormulario" type="text" placeholder="Empresa" id="exampleFormControlInput2" aria-label="default input example" required>
+          <div class="invalid-feedback">
+                Debes ingresar el nombre de tu empresa
+            </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo electrónico <b class="asteriscoObligatorio">*</b></label>
+          <input type="email" class="form-control controlFormulario" id="exampleFormControlInput1" placeholder="correo@ejemplo.cl" required>
+          <div class="invalid-feedback">
+                Tu correo no puede estar en blanco
+            </div>
+        </div>
+        <div>
+          <label for="exampleFormControlInput2" class="form-label">Número de contacto <b class="asteriscoObligatorio">*</b></label>
+          <input class="form-control controlFormulario" type="text" placeholder="+569" id="exampleFormControlInput2" aria-label="default input example" required>
+            <div class="invalid-feedback">
+                Tu número no puede estar en blanco
+                </div>
+        </div>
+
+        <div>
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control controlFormulario" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary botonFormulario">Enviar</button>
+      </form>
+    </div>
+  </center>
+</main>
+
+
+
+
+
+
+
+<!--Footer--> 
   <footer>
       <div class="container-fluid contenedorSuperior-footer">
         <p class="text-center"><i class="fas fa-building"></i>Sociedad Diesel OMT LTDA</p>
@@ -44,8 +105,6 @@
         <p class="text-center">2020 Diesel OMT Ltda &copy;</p>
       </div>
   </footer>
-
-
 <script type="text/javascript" src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 </html>

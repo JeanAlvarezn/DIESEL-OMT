@@ -2,6 +2,7 @@ body {
 	background: #fff;
 }
 
+/*ESTILOS PARA EL INDEX*/
 .navbar-bg {
 	background: #313133 !important;
 }
@@ -28,6 +29,12 @@ body {
 .active {
 	color: #49D0F9 !important;
 	margin-right: 40px;
+}
+
+.barra-inferiorCarrusel {
+	width: 100%;
+	height: 20px;
+	background: #1977ca;
 }
 
 
@@ -152,3 +159,138 @@ body {
 		width: 500px;
 	}
 }
+
+/*ESTILOS PARA EL FORMULARIO DE CONTACTO*/
+
+.controlFormulario {
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+.botonFormulario {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.asteriscoObligatorio {
+  color : #E22C2C;
+}
+
+/*ESTILOS PARA LA SECCION QUIENES SOMOS*/
+
+.contenedorIconos h1 {
+	margin-top: 15px;
+}
+
+.contenedorCirculos {
+  height: 290px;
+  width: 290px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  box-shadow: 5px 10px 8px #807E7E;
+}
+
+.contenedorCirculos img{
+ width: 100%;
+ height: auto;
+ border-radius: 50%;
+}
+
+
+@media (max-width: 500px) {
+  .col-sm .contenedorCirculos {
+     width: 250px;
+     height: 250px;
+  }
+}
+
+/*ESTILOS PARA LA SECCION DE SERVICIOS*/
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 250px;
+	width: 100%;
+	background: #3574C9;
+}
+
+.containerx{
+	width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.containerx .box {
+	position: relative;
+	width: 320px;
+	background: #fff;
+	padding: 100px 40px 60px;
+	box-shadow: 0 15px 35px rgba(0,0,0.1);
+}
+
+.containerx .box:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #1B27CB;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: transform 0.5s;
+}
+
+.containerx .box:hover:before{
+	transform: scaleY(1);
+	transform-origin: bottom;
+	transition: transform 0.5s;
+}
+
+.containerx .box h2 {
+	position: absolute;
+	left: 40px;
+	top: 60px;
+	font-size: 4em;
+	font-weight: 800;
+	z-index: 1;
+	opacity: 0.1;
+	transition: 0.5s;
+}
+
+.containerx .box:hover h2 {
+	opacity: 1;
+	color: #fff;
+	transform: translateY(-40px);
+}
+
+.containerx .box h3 {
+	position: relative;
+	font-size: 1.5em;
+	z-index: 2;
+	color: #333;
+	transition: 0.5s;
+}
+
+
+.containerx .box p {
+	position: relative;
+	z-index: 2;
+	color: #555;
+	transition: 0.5s;
+}
+
+.containerx .box:hover h3 , .containerx .box:hover p {
+	color: #fff;
+}
+
+
+
+
