@@ -9,6 +9,7 @@
 	<title>DIESEL OMT | Servicios Integrales</title>
 </head>
 <body>
+<main id="body-servicios">
   <!--Cabecera-->
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-bg">
   		<div class="container-fluid contenedor-navbar">
@@ -19,42 +20,79 @@
     	<div class="collapse navbar-collapse" id="navbarNav">
       		<ul class="navbar-nav barra-navegacion">
         		<li class="nav-item">
-                <a class="nav-link item-nav" href="index.html">Inicio</a>
+                <a class="nav-link item-nav" href="index.html">Inicio<i class="fas fa-home iconos-display"></i></a>
         		</li>
 		        <li class="nav-item">
-                <a class="nav-link item-nav" href="quienes-somos.html">Quienes somos</a>
+                <a class="nav-link item-nav" href="quienes-somos.html">Quienes somos<i class="fas fa-user-friends iconos-display"></i></a>
 		        </li>
         		<li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="">Servicios</a>
+              <a class="nav-link active" aria-current="page" href="">Servicios<i class="fas fa-tools iconos-display"></i></a>
         		</li>
         		<li class="nav-item">
-          			<a class="nav-link item-nav" href="contacto.html">Contacto</a>
+          			<a class="nav-link item-nav" href="contacto.html">Contacto<i class="fas fa-phone-alt iconos-display"></i></a>
         		</li>
       		</ul>
     	</div>
   		</div>
 	</nav>
 
-<!-- Cuerpo -->
-<main>
+<!-- Cuerpo principal -->
+<div class="col text-center">
+  <h1 id="titulo-cuerpoServicios">Nuestros servicios y especialidades</h1>
+</div>
+<main id="contenedorServicios">
   <div class="containerx">
     <div class="box">
-      <h2>01</h2>
-      <h3>Service one</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nobis, iste? Consequuntur hic quibusdam quas, recusandae accusamus animi ab, voluptatem molestias odio illum expedita quasi inventore officiis, molestiae tempora laudantium!</p>
+      <img src="img/icono-soldadura.png" class="icono-servicio" alt="">
+      <h3>Soldadura</h3>
+      <p>Trabajos especializados de soldadura MIG/TIG en general</p>
+      <div class="col text-center">
+        <a href="#servicios-soldadura"><button type="button" class="btn btn-primary boton-tarjetasServicios">Ver más</button></a>
+      </div>
     </div>
     <div class="box">
-      <h2>01</h2>
-      <h3>Service one</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nobis, iste? Consequuntur hic quibusdam quas, recusandae accusamus animi ab, voluptatem molestias odio illum expedita quasi inventore officiis, molestiae tempora laudantium!</p>
+     <img src="img/icono-torneria.png" class="icono-servicio" alt="">
+      <h3>Tornería</h3>
+      <p>Fabricaciones, mecanizados y cepillados en general</p>
+      <div class="col text-center">
+        <a href="#servicios-torneria"><button type="button" class="btn btn-primary boton-tarjetasServicios">Ver más</button></a>
+      </div>
     </div>
     <div class="box">
-      <h2>01</h2>
-      <h3>Service one</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nobis, iste? Consequuntur hic quibusdam quas, recusandae accusamus animi ab, voluptatem molestias odio illum expedita quasi inventore officiis, molestiae tempora laudantium!</p>
+      <img src="img/icono-mantencion.png" class="icono-servicio" alt="">
+      <h3>Mantenimiento</h3>
+      <p>Lavado, arenado y pintado de componentes</p>
+      <div class="col text-center">
+        <a href="#servicios-mantencion"><button type="button" class="btn btn-primary boton-tarjetasServicios">Ver más</button></a>
+      </div>
     </div>
   </div>
 </main>
+</main>
+
+<!-- Cuerpo secundario -->
+<div class="siguiente-cuerpo">
+  <div class="col text-center">
+    <h1>Nuestra especialidad</h1>
+  </div>
+  <hr id="separaTitulos-servicios">
+  <div class="col text-center">
+    <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Harum delectus porro necessitatibus incidunt quos nihil enim, animi sequi asperiores, autem minus! A quisquam commodi reprehenderit expedita, earum cupiditate ipsa. Ipsa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat voluptas commodi officia vel quaerat saepe, at eveniet nam modi ipsa maxime provident harum quisquam dignissimos in, dolorem distinctio. Perferendis, reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magni labore facere est odio non cum itaque inventore eius voluptatibus libero temporibus omnis perferendis saepe, ipsum quasi eligendi molestias reprehenderit!</p>
+  </div>
+  <div class="col text-center">
+    <h1 id="servicios-soldadura">Servicios de soldadura</h1>
+  <hr id="separaTitulos-servicios">
+</div>
+<div class="col text-center">
+    <h1 id="servicios-torneria">Servicios de tornería</h1>
+  <hr id="separaTitulos-servicios">
+</div>
+<div class="col text-center">
+    <h1 id="servicios-mantencion">Servicios de mantención</h1>
+  <hr id="separaTitulos-servicios">
+</div>
+  </div>
+</div>
 
 <!--Footer-->
   <footer>
