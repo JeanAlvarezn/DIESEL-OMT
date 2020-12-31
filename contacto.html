@@ -25,61 +25,71 @@
                 <a class="nav-link item-nav" href="quienes-somos.html">Quienes somos<i class="fas fa-user-friends iconos-display"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="">Servicios<i class="fas fa-tools iconos-display"></i></a>
+              <a class="nav-link item-nav" href="">Servicios<i class="fas fa-tools iconos-display"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link item-nav" href="contacto.html">Contacto<i class="fas fa-phone-alt iconos-display"></i></a>
+                <a class="nav-link active" href="contacto.html">Contacto<i class="fas fa-phone-alt iconos-display"></i></a>
             </li>
           </ul>
       </div>
       </div>
   </nav>
+
 <!--Formulario-->
 <main>
   <center>
     <div class="formularioContacto">
       <form action="" class="needs-validation">
-        <h1>Contacto</h1>
+        <h1>Contáctanos</h1>
         <hr id="separadorContenido">
         <div class="mb-3">
           <label for="exampleFormControlInput2" class="form-label">Nombre <b class="asteriscoObligatorio">*</b></label>
-          <input class="form-control controlFormulario" type="text" placeholder="Nombre" id="exampleFormControlInput2" aria-label="default input example" required>
+          <input class="form-control controlFormulario" type="text" placeholder="Escriba su nombre" name="nombre" id="exampleFormControlInput2" aria-label="default input example" required>
           <div class="invalid-feedback">
                 Tu nombre no puede estar en blanco
             </div>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput2" class="form-label">Apellido <b class="asteriscoObligatorio">*</b></label>
-          <input class="form-control controlFormulario" type="text" placeholder="Apellido" id="exampleFormControlInput2" aria-label="default input example" required>
+          <input class="form-control controlFormulario" type="text" placeholder="Escriba su apellido" name="apellido" id="exampleFormControlInput2" aria-label="default input example" required>
           <div class="invalid-feedback">
                 Tu apellido no puede estar en blanco
             </div>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput2" class="form-label">Empresa u organización <b class="asteriscoObligatorio">*</b></label>
-          <input class="form-control controlFormulario" type="text" placeholder="Empresa" id="exampleFormControlInput2" aria-label="default input example" required>
+          <input class="form-control controlFormulario" type="text" placeholder="Ingrese su empresa" name="empresa" id="exampleFormControlInput2" aria-label="default input example" required>
           <div class="invalid-feedback">
                 Debes ingresar el nombre de tu empresa
             </div>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Correo electrónico <b class="asteriscoObligatorio">*</b></label>
-          <input type="email" class="form-control controlFormulario" id="exampleFormControlInput1" placeholder="correo@ejemplo.cl" required>
+          <input type="email" class="form-control controlFormulario" id="exampleFormControlInput1" name="correo" placeholder="Ingrese su correo electrónico" required>
           <div class="invalid-feedback">
                 Tu correo no puede estar en blanco
             </div>
         </div>
         <div>
           <label for="exampleFormControlInput2" class="form-label">Número de contacto <b class="asteriscoObligatorio">*</b></label>
-          <input class="form-control controlFormulario" type="text" placeholder="+569" id="exampleFormControlInput2" aria-label="default input example" required>
+          <input class="form-control controlFormulario" type="text" placeholder="Ingrese un número de contacto" name="numero" id="exampleFormControlInput2" aria-label="default input example" required>
             <div class="invalid-feedback">
                 Tu número no puede estar en blanco
                 </div>
         </div>
-
         <div>
-          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control controlFormulario" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="exampleFormControlInput2" class="form-label">Asunto <b class="asteriscoObligatorio">*</b></label>
+          <input class="form-control controlFormulario" type="text" placeholder="Ingrese el asunto" name="asunto" id="exampleFormControlInput2" aria-label="default input example" required>
+            <div class="invalid-feedback">
+                Debes ingresar el asunto de tu mensaje
+            </div>
+        </div>
+        <div>
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje <b class="asteriscoObligatorio">*</b></label>
+            <textarea class="form-control controlFormulario" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba un mensaje" required></textarea>
+            <div class="invalid-feedback">
+              Debes escribir un mensaje
+            </div>
         </div>
         <button type="submit" class="btn btn-primary botonFormulario">Enviar</button>
       </form>
