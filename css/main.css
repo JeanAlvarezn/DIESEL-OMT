@@ -338,20 +338,113 @@ body {
 
 /*ESTILOS PARA LA SECCION QUIENES SOMOS*/
 
+.contenedor-qsomos {
+	margin: 55px 55px;
+}
 
+.contenedor-qsomos h1 {
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.contenedor-qsomos p {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.contenedor-qsomos b {
+	color:#227CE2;
+}
+
+.underline-title {
+	width: 35%;
+	height: 10px;
+	background: #227CE2;
+	margin-bottom: 20px;
+
+}
+
+
+#lastone {
+	width: 45%;
+}
+
+.boton-organigrama {
+	color: #fff;
+	width: 120px;
+	position: relative;
+	z-index: 2;
+	width: 200px;
+}
+
+@media (max-width: 800px) {
+	.contenedor-qsomos {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contenedor-qsomos h1 {
+		font-size: 40px;
+	}
+
+	.underline-title {
+		width: 100%;
+	}
+}
+
+/* LECTOR PDF */
+
+#lectorIncrustado {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
 
 
 /*ESTILOS PARA LA SECCION DE SERVICIOS*/
 
 #body-servicios {
-	background: #3574C9;
+	background: #0C2F5E;
 }
 
 #titulo-cuerpoServicios {
 	font-size: 45px;
 	font-weight: bold;
-	color:#d5d5d5;
+	color:#fff;
 }
+
+.titulo-servicio {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+.parrafo-descriptivo {
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+
+.listado-servicios{
+	color: #000;
+	margin-bottom: 25px;
+}
+
+#mant-under {
+	width: 40%;
+}
+
+
+#galeria-under {
+	width: 60%;
+}
+
+@media (max-width: 800px) {
+	#mant-under, #galeria-under {
+		width: 100%;
+	}
+}
+
 
 #contenedorServicios {
 	display: flex;
@@ -359,7 +452,7 @@ body {
 	align-items: center;
 	min-height: 250px;
 	width: 100%;
-	background: #3574C9;
+	background:#0C2F5E;
 }
 
 .containerx{
