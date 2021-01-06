@@ -594,7 +594,240 @@ body {
 	margin-bottom: 15px;
 }
 
+#cajon-01 {
+	background-image: url(../img/galeria/fabricacion1.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
 
+#cajon-02 {
+	background-image: url(../img/galeria/fabricacion2.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-03 {
+	background-image: url(../img/galeria/fabricacion3.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-04 {
+	background-image: url(../img/galeria/fabricacion4.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-05 {
+	background-image: url(../img/galeria/fabricacion5.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-06 {
+	background-image: url(../img/galeria/fabricacion6.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-07 {
+	background-image: url(../img/galeria/fabricacion7.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-08 {
+	background-image: url(../img/galeria/fabricacion8.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-09 {
+	background-image: url(../img/galeria/fabricacion9.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-10 {
+	background-image: url(../img/galeria/fabricacion10.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	
+}
+
+#cajon-11 {
+	background-image: url(../img/galeria/fabricacion11.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+
+#cajon-12 {
+	background-image: url(../img/galeria/fabricacion12.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-13 {
+	background-image: url(../img/galeria/fabricacion13.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-14 {
+	background-image: url(../img/galeria/fabricacion14.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-15 {
+	background-image: url(../img/galeria/fabricacion15.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-16 {
+	background-image: url(../img/galeria/fabricacion16.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-17 {
+	background-image: url(../img/galeria/fabricacion17.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-18 {
+	background-image: url(../img/galeria/fabricacion18.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-19 {
+	background-image: url(../img/galeria/fabricacion19.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-20 {
+	background-image: url(../img/galeria/fabricacion20.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	
+}
+#cajon-21 {
+	background-image: url(../img/galeria/fabricacion21.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+
+#cajon-22 {
+	background-image: url(../img/galeria/fabricacion22.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-23 {
+	background-image: url(../img/galeria/fabricacion23.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-24 {
+	background-image: url(../img/galeria/fabricacion24.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-25 {
+	background-image: url(../img/galeria/fabricacion25.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-26 {
+	background-image: url(../img/galeria/fabricacion26.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-27 {
+	background-image: url(../img/galeria/fabricacion27.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-28 {
+	background-image: url(../img/galeria/fabricacion28.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-29 {
+	background-image: url(../img/galeria/fabricacion29.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+}
+#cajon-30 {
+	background-image: url(../img/galeria/fabricacion30.webp);
+	background-size: cover;
+	transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	
+}
+
+
+.texto-cajon {
+	color: #fff;
+	font-size: 25px;
+	visibility: hidden;
+}
+
+
+#cajon-01:hover, #cajon-02:hover,#cajon-03:hover, #cajon-04:hover,#cajon-05:hover, #cajon-06:hover,#cajon-07:hover, #cajon-08:hover,#cajon-09:hover, #cajon-10:hover, #cajon-11:hover,#cajon-12:hover, #cajon-13:hover,#cajon-14:hover, #cajon-15:hover,#cajon-16:hover, #cajon-17:hover,#cajon-18:hover, #cajon-19:hover, #cajon-20:hover,#cajon-21:hover, #cajon-22:hover,#cajon-23:hover, #cajon-24:hover,#cajon-25:hover, #cajon-26:hover,#cajon-27:hover, #cajon-28:hover , #cajon-29:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
 
 
 
