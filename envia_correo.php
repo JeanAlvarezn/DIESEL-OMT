@@ -11,9 +11,14 @@
 
 	//ENVIO DE FORMULARIO POR CORREO
 	$header = 'From:'.$correo . "\r\n" . "Reply-To:$correo\r\n" . "Return-Path:$destinatario";
-	$cuerpoMensaje = $mensaje . "\n" . "\nAtentamente : " . " " . "$nombre" . " " . "$apellido" . " " . "\nEmpresa u organizacion: " . " " . $empresa . "\nNumero de contacto: " . " " . "+".$telefono . " ";
+	$cuerpoMensaje = $mensaje . "\n" . "\nAtentamente : " . " " . "$nombre" . " " . "$apellido" . " " . "\nEmpresa u organizacion: " . " " . $empresa . "\nNumero de contacto: " . " " . "+".$numero . " ";
 
 	mail($destinatario , $asunto, $cuerpoMensaje, $header);
+	echo "<script>
+         setTimeout(function(){
+            window.location.href = 'formulario_enviado.html' ,2000
+        });
+		</script>";
 
 
  ?>
