@@ -63,7 +63,7 @@ body {
 }
 
 .imagen-carrusel {
-	background-image: linear-gradient(170deg,rgba(0,51,160,0.9) 40%,rgba(13,175,255,0.4) 100%),url(../img/servicio__lavado03.jpg);
+	background-image: linear-gradient(170deg,rgba(0,51,160,0.9) 40%,rgba(13,175,255,0.4) 100%),url(../img/servicio__lavado03.webp);
 	background-size: cover;
 	background-color: #0033a0;
 	width: 100%;
@@ -72,7 +72,7 @@ body {
 
 
 .imagen-carrusel:nth-child(2) {
-	background-image: linear-gradient(170deg,rgba(0,51,160,0.9) 40%,rgba(13,175,255,0.4) 100%),url(../img/soldando.jpg);
+	background-image: linear-gradient(170deg,rgba(0,51,160,0.9) 40%,rgba(13,175,255,0.4) 100%),url(../img/soldando.webp);
 }
 
 .contenedor-texto-carrusel h1 {
@@ -217,7 +217,7 @@ body {
 	height: 80vh;
 	background-size: cover;
 	position: relative;
-	background: linear-gradient(135deg, rgba(52, 73, 94,0.9) 0%, rgba(44, 62, 80,0.8) 100%) , url('../img/fabricacionReferencia03.jpg') center no-repeat fixed;
+	background: linear-gradient(135deg, rgba(52, 73, 94,0.9) 0%, rgba(44, 62, 80,0.8) 100%) , url('../img/fabricacionReferencia03.webp') center no-repeat fixed;
 
 }
 
